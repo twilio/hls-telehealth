@@ -6,7 +6,7 @@
     "@twilio-labs/serverless-api": "5.4.3",
     "@twilio/runtime-handler": "1.2.3",
     "configure-env": "2.0.0-1",
-    "jsonwebtoken": "8.5.1",
+    "jsonwebtoken": "9.0.0",
     "twilio": "3.77.3",
     "twilio-flex-token-validator": "1.5.6",
     "moment": "2.29.4",
