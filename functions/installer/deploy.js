@@ -175,7 +175,8 @@ async function deployService(context, envrionmentVariables = {}) {
     runtime: 'node16',
   };
   console.log('deployOptions.env:', deployOptions.env);
-
+  console.log('deployOptions:', deployOptions);
+  
   context['APPLICATION_NAME'] = envrionmentVariables.APPLICATION_NAME;
   let service_sid = await getParam(context, 'SERVICE_SID');
   if (service_sid) {
