@@ -172,7 +172,7 @@ async function deployService(context, envrionmentVariables = {}) {
     functionsEnv: 'dev',
     functions,
     assets,
-    runtime: 'node14',
+    runtime: 'node16',
   };
   console.log('deployOptions.env:', deployOptions.env);
 
