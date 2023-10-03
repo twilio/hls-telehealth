@@ -121,7 +121,7 @@ build-react:
 
 deploy: build-react
 	@echo twilio serverless:deploy
-	twilio serverless:deploy --runtime node14
+	twilio serverless:deploy --runtime node16
 	@echo If initial deployment, also execute 'make make-service-editable'
 
 
